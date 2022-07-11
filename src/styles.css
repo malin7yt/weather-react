@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+li {
+  text-align: start;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.links {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+
+body {
+  text-align: center;
+}

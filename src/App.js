@@ -1,30 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import axios from 'axios';
 import React from 'react';
-import { Puff } from  'react-loader-spinner';
+import Search from "./Search"
 
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import "./styles.css";
 
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-WEATHER REACT APP
-        </h1>
-        <Puff
-    height="200"
-    width="200"
-    color='orange'
-    ariaLabel='loading'
-  />
-        <h4>In progress...</h4>
-      </header>
+      <h1>Weather App</h1>
+      <Search />
+      <p>
+        <a href="https://github.com/malin7yt/weather-react" class="links" target="_blank" rel="noopener noreferrer">Open source Code</a> by Malin Jensen, hosted on <a href="https://keen-boba-597d50.netlify.app/" class="links" target="_blank" rel="noopener noreferrer">Netlify</a></p>
     </div>
   );
 }
-
-export default App;
