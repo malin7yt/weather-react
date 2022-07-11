@@ -1,22 +1,49 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+
+:root {
+  --bgcolor: #f28482;
+  --primarycolor: #84A59D;
+  --primaryfont: 'Roboto', sans-serif;
 }
 
-li {
-  text-align: start;
+body {
+  background: var(--primarycolor);
+  font-family: var(--primaryfont);
+}
+
+div {
+  display: block;
 }
 
 img {
   vertical-align: middle;
 }
 
-.links {
-  text-decoration: none;
-  color: purple;
-  font-weight: bold;
-}
-
-body {
+.App {
+  font-family: sans-serif;
   text-align: center;
 }
+
+.App .all-content {
+  margin: 0 auto 60px auto;
+  max-width: 800px;
+}
+
+.App .app-content {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  margin: 60px auto 25px auto;
+  max-width: 800px;
+  padding: 40px 40px 60px;
+}
+
+.app-title {
+  color: grey;
+}
+
+.container {
+display: block;
+  padding: 20px;
+  text-align: center;
+}
+

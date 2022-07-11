@@ -1,0 +1,26 @@
+
+:root {
+    --bgcolor: #f28482;
+    --primarycolor: #84A59D;
+    --primaryfont: 'Roboto', sans-serif;
+  }
+
+.btn-primary {
+    background-color: var(--bgcolor);
+    border: none;
+    width: 100%;
+    font-family: var(--primaryfont);
+}
+
+.btn-primary:hover {
+    background-color: var(--primarycolor);
+}
+
+.form-control {
+    width: 100%;
+}
+
+li {
+list-style: none;
+text-align: start;
+}

@@ -1,0 +1,25 @@
+
+:root {
+    --bgcolor: #f28482;
+    --primarycolor: #84A59D;
+    --primaryfont: 'Roboto', sans-serif;
+  }
+  
+  .signature {
+    text-decoration: none;
+    text-align: start;
+    color: gray;
+    font-family: var(--primaryfont);
+    position: absolute;
+    font-size: 14px;
+  }
+
+  .signature-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primarycolor);
+  }
+
+  .signature-link:hover {
+    color: var(--bgcolor);
+  }
