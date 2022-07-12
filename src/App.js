@@ -9,6 +9,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
+      <div className="container">
       <div className="full-app">
         <div className="app-content">
       <h1>Weather App</h1>
@@ -16,6 +17,7 @@ export default function App() {
       <Weather />
       <DisplayForecast />
       <Signature />
+    </div>
     </div>
     </div>
     </div>
