@@ -23,11 +23,6 @@ img {
   text-align: center;
 }
 
-.App .all-content {
-  margin: 0 auto 60px auto;
-  max-width: 800px;
-}
-
 .App .app-content {
   background-color: #ffffff;
   border-radius: 16px;

@@ -15,7 +15,7 @@ return (
         <img src="" alt="" id="icon" className="float-left" />
         <span className="temperature" id="temperatur"></span>
         <span className="Units">
-            <a href="" className="fahrenheit-link">°F</a> <span id="temp"> | </span> <a href="" className="celsius-link">°C</a>
+            <a href="https://github.com/malin7yt/weather-app-malin/blob/main/index.html" className="fahrenheit-link">°F</a> <span id="temp"> | </span> <a href="https://github.com/malin7yt/weather-app-malin/blob/main/index.html" className="celsius-link">°C</a>
         </span>
     </h1>
     <h5>Humidity: <span id="humidity"></span>% <br />

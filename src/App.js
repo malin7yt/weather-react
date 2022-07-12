@@ -4,7 +4,7 @@ import Signature from './Signature';
 import Weather from "./Weather"
 import DisplayForecast from './DisplayForecast';
 
-import "./styles.css";
+import "./App.css";
 
 export default function App() {
   return (
