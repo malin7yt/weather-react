@@ -1,4 +1,15 @@
-.bajskorv {
-    color: gray;
+:root {
+    --bgcolor: #d87f81;
+    --primarycolor: #84A59D;
+    --primaryfont: 'Roboto', sans-serif;
+  }
+
+  h5 {
     text-align: start;
+    color: gray;
+  }
+
+.fahrenheit-link {
+    text-decoration: none;
+    color: var(--bgcolor)
 }

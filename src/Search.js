@@ -22,7 +22,21 @@ export default function Search() {
     return setForecast(
         <div className="search-result">
             <div className="row">
-              <div className="col-6 mt-3">
+              <div className="col-sm-6 mt-3">
+      <ul>
+        <li> Temperature: {Math.round(response.data.main.temp)}°C </li>
+        <li>Description: {response.data.weather[0].description} </li>
+        <li>Humidity: {response.data.main.humidity}%</li>
+        <li>Wind: {response.data.wind.speed} km/h</li>
+        <li>
+          <img
+            src={`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`}
+            alt=""
+          />
+        </li>
+      </ul>
+      </div>
+      <div className="col-sm-6 mt-3">
       <ul>
         <li> Temperature: {Math.round(response.data.main.temp)}°C </li>
         <li>Description: {response.data.weather[0].description} </li>

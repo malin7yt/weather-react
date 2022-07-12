@@ -1,6 +1,6 @@
 
 :root {
-  --bgcolor: #f28482;
+  --bgcolor: #d87f81;
   --primarycolor: #84A59D;
   --primaryfont: 'Roboto', sans-serif;
 }
@@ -9,5 +9,5 @@ h1 {
   color: grey;
   text-align: start;
   margin-bottom: 25px;
-font-family: var(--primaryfont);
+  font-family: var(--primaryfont);
 }
