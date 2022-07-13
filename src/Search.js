@@ -1,10 +1,10 @@
 import React, { useState } from "react";
+import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
-
 
 import "./Search.css"
 
-export default function Search(props) {
+export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
 
@@ -13,11 +13,11 @@ export default function Search(props) {
       ready: true,
       coordinates: response.data.coord,
       temperature: response.data.main.temp,
-      wind: response.data.main.wind.speed,
       humidity: response.data.main.humidity,
+      date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
-      date: "Tues 07:00",
       icon: response.data.weather[0].icon,
+      wind: response.data.wind.speed,
       city: response.data.name,
     });
   }
@@ -58,6 +58,7 @@ function search() {
               </div>
               </div>
         </form>
+        <WeatherInfo data={weatherData} />
         </div>
     );
     } else {
