@@ -16,8 +16,8 @@ export default function App() {
       <Search />
       <Weather />
       <DisplayForecast />
-      <Signature />
     </div>
+    <Signature />
     </div>
     </div>
     </div>

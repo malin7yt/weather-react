@@ -14,13 +14,11 @@ div {
   display: block;
 }
 
-img {
-  vertical-align: middle;
-}
 
 .App {
   font-family: sans-serif;
-  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .App .app-content {

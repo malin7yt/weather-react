@@ -4,12 +4,38 @@
     --primaryfont: 'Roboto', sans-serif;
   }
 
-  h5 {
-    text-align: start;
+ .Weather ul {
+    list-style: none;
     color: gray;
+    font-family: var(--primaryfont);
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
   }
 
-.fahrenheit-link {
+  .Weather {
+    margin: 0;
+  }
+
+  .temperature {
+    font-size: 54px;
+  }
+
+.fahrenheit-link, .celsius-link {
     text-decoration: none;
-    color: var(--bgcolor)
+    color: var(--bgcolor);
+}
+
+.Units {
+  font-size:25px;
+}
+
+.fahrenheit-link:hover, .celsius-link:hover {
+  text-decoration: none;
+  color: var(--primarycolor)
+}
+
+ .float-left {
+  max-height: 64px;
+  vertical-align: top;
 }
