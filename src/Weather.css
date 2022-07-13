@@ -1,10 +1,4 @@
 
-:root {
-    --bgcolor: #f28482;
-    --primarycolor: #84A59D;
-    --primaryfont: 'Roboto', sans-serif;
-  }
-
 .btn-primary {
     background-color: var(--bgcolor);
     border: none;
@@ -19,28 +13,3 @@
 .form-control {
     width: 100%;
 }
-
-.ShowWeather li {
-    list-style: none;
-    text-align: start;
-    color: gray;
-    font-family: var(--primaryfont);
-    font-size: 16px;
-  }
-
-  .ShowWeather ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  .ShowWeather h1 {
-    display: block;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 29px;
-    margin: 0px 0 0 0;
-  }
-
-  .ShowWeather {
-    margin-bottom: 15px;
-  }

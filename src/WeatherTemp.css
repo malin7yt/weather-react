@@ -1,0 +1,21 @@
+.click {
+    color: black;
+    text-decoration: none;
+}
+
+.unit-link {
+    font-size: 64px;
+}
+  
+  .Weather canvas {
+    margin-right: 10px;
+  }
+  
+  .WeatherTemp .unit {
+    color: rgb(33, 33, 33);
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    line-height: 1;
+    top: -34px;
+  }

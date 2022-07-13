@@ -1,44 +1,12 @@
-:root {
-    --bgcolor: #d87f81;
-    --primarycolor: #84A59D;
-    --primaryfont: 'Roboto', sans-serif;
-  }
 
-.Weather h1 {
-  margin: 0px;
-}
-
- .Weather ul {
+ .WeatherInfo ul {
     list-style: none;
     color: gray;
     font-family: var(--primaryfont);
     font-size: 18px;
     padding: 0px;
-    margin: 0px;
-  }
-
-  .Weather {
-    margin: 0;
   }
 
   .temperature {
     font-size: 54px;
   }
-
-.fahrenheit-link, .celsius-link {
-    text-decoration: none;
-    color: var(--bgcolor);
-}
-
-.Units {
-  font-size:25px;
-}
-
-.fahrenheit-link:hover, .celsius-link:hover {
-  text-decoration: none;
-  color: var(--primarycolor)
-}
-
- .float-left {
-  vertical-align: top;
-}
