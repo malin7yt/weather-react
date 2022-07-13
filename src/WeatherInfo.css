@@ -4,6 +4,10 @@
     --primaryfont: 'Roboto', sans-serif;
   }
 
+.Weather h1 {
+  margin: 0px;
+}
+
  .Weather ul {
     list-style: none;
     color: gray;
@@ -36,6 +40,5 @@
 }
 
  .float-left {
-  max-height: 64px;
   vertical-align: top;
 }

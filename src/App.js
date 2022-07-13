@@ -13,7 +13,6 @@ export default function App() {
         <div className="app-content">
       <h1>Weather App</h1>
       <Weather defaultCity="New York"/>
-      <DisplayForecast />
     </div>
     <Signature />
     </div>
