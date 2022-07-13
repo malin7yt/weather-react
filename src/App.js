@@ -1,7 +1,6 @@
 import React from 'react';
 import Weather from "./Weather"
 import Signature from './Signature';
-import DisplayForecast from './DisplayForecast';
 
 import "./App.css";
 
