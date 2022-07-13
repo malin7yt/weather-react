@@ -15,7 +15,7 @@ export default function WeatherInfo(props) {
         <WeatherIcon code={props.data.icon} size={52} />
             </div>
             <h1 className="result">
-        <span className="temperature" id="temperature">85</span>
+        <span className="temperature">85</span>
         <span className="Units">
             <a href="https://github.com/malin7yt/weather-app-malin/blob/main/index.html" className="fahrenheit-link">°F</a> <span id="temp"> | </span> <a href="https://github.com/malin7yt/weather-app-malin/blob/main/index.html" className="celsius-link">°C</a>
         </span>

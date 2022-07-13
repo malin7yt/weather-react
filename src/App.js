@@ -1,7 +1,6 @@
 import React from 'react';
-import Search from "./Search"
+import Weather from "./Weather"
 import Signature from './Signature';
-import WeatherInfo from "./WeatherInfo"
 import DisplayForecast from './DisplayForecast';
 
 import "./App.css";
@@ -13,8 +12,7 @@ export default function App() {
       <div className="full-app">
         <div className="app-content">
       <h1>Weather App</h1>
-      <Search defaultCity="New York"/>
-      <WeatherInfo />
+      <Weather defaultCity="New York"/>
       <DisplayForecast />
     </div>
     <Signature />
