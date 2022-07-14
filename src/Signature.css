@@ -2,11 +2,11 @@
   
   .signature {
     text-decoration: none;
-    text-align: start;
     color: #ffffff;
     font-family: var(--primaryfont);
     position: absolute;
     font-size: 14px;
+    margin-left: 5px;
   }
 
   .signature-link {

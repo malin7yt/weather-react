@@ -1,12 +1,11 @@
 
  .WeatherInfo ul {
     list-style: none;
-    color: gray;
     font-family: var(--primaryfont);
     font-size: 18px;
     padding: 0px;
-  }
+ }
 
-  .showingtemp {
-justify-content: start;
+.weatherDescription {
+  margin-top: 15px;
 }

@@ -22,14 +22,14 @@ if (unit === 'fahrenheit') {
     return (
         <span className="WeatherTemp">
             <span className="unit-link">{Math.round(props.fahrenheit)}</span> 
-                <span className="unit"> °F | <a href="/" onClick={showCelsius} className="click">°C</a></span>
+                <span className="unit"> °F | °<a href="/" onClick={showCelsius} className="click">C</a></span>
           </span>
     );
   } else {
     return (
         <span className="WeatherTemp">
             <span className="unit-link">{Math.round(celsius())}</span> 
-                <span className="unit"><a href="/" onClick={showFahrenheit} className="click"> °F</a> | °C</span>
+                <span className="unit"> °<a href="/" onClick={showFahrenheit} className="click">F</a> | °C</span>
           </span>
     );
   }
